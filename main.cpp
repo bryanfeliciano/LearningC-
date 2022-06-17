@@ -14,11 +14,11 @@ using namespace std;
   // cout << colors[0];
 // we have to handle memory ourselves and be mindful of a var's byte size(that's weird)
 int main() {
-  cout << "WHILE:/n";
   int counter = 1 ;
-  while(counter<=10){
+  do {
     cout << counter << endl;
-  }
+    counter ++ ;
+  }while(counter<=10);
 }
 // Instead of this you could use turnanry operators
   // if (isTodaySunny = true){
@@ -29,3 +29,8 @@ int main() {
 // turnary operator -->
   // isTodaySunny? cout << "Go to the park": cout << "Take an ummbrella";
 // next we experimented with switch cases
+// while
+  // while(counter<=10){
+  //   cout << counter << endl;
+  //   counter ++ ;
+  // }
