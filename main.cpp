@@ -17,7 +17,7 @@ class Image {
   void Setcolor (const color& color);
 };
 
-
+// Create methods next 
 
 
 
