@@ -14,7 +14,7 @@
 //     u16 reserved2{ 0 };         // Reserved, always 0
 //     u32 offset_data{ 0 };       // Start position of pixel data
 // };
-
+// Include a readme.txt
 // #pragma pack(1)
 // struct InfoHeader
 // {
