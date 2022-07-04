@@ -340,3 +340,4 @@
   // }
 // ~ = bitwise operator
 //  color& denotes a const refernce 
+// Std srgba structure, a channel negastion not required 
